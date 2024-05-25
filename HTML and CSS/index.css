@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section{
+    background-color: pink;
+    background-size: cover; 
+    position: relative; 
+    width: 100%;
+    height: 700px;
+    
+    
+}
+
+.page{ padding: 50px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    
+}
+
+.logo{
+    padding: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 5%;
+    margin-top: 1%;
+
+}
+
+
+
+.link{ 
+    gap: 2rem;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    font-size: 18px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    margin-left: 45%;
+    margin-top: 1%;
+
+} 
+
+
+.button{
+    float: right;
+   margin-right: 5%;
+    padding: 15px 25px;
+    padding-bottom: 1px;
+    width: 16%;
+    background-color: blue;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white;
+    
+}
+
+.content{
+    /* display: flex; */
+    position: relative;
+    font-family: "Poppins", sans-serif;
+}
+
+.content h1{
+    margin-top: 7%;
+    margin-left: 8%;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.content p{
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.click{
+    margin-left: 8%;
+    padding: 15px 25px;
+    width: 15%;
+    background-color: blue;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    color: white;
+}
+.address p{
+    margin-left: 8%;
+    margin-top: 2%;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+
+img{
+    float: right;
+    margin-bottom: 500%;
+}

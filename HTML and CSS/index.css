@@ -99,14 +99,56 @@ section{
     text-align: center;
     color: white;
 }
+
+.picture1{
+    display: flex;
+    margin-left: 8%;
+    margin-top: 2%;
+    
+
+}
+
+
+.img-circle{
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    padding: 2px solid #fff;
+    position: relative;
+    border: 2px solid #fff;
+
+}
+
+.img-circle2{
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    /* position: absolute; */
+
+}
+
+
+
+
 .address p{
     margin-left: 8%;
     margin-top: 2%;
     font-family: "Poppins", sans-serif;
     font-size: 14px;
+    float: left;
+}
+
+image{
+    margin-bottom: 100%;
+    display: flex;
+    position: relative;
+    margin: 70px;
+    padding-bottom: 100px;
 }
 
 img{
     float: right;
-    margin-bottom: 500%;
+    /* margin-bottom: 500%; */
+
 }

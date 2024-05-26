@@ -145,7 +145,22 @@ section{
     /* position: absolute; */
 
 }
+.img-circle5{
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    /* position: absolute; */
 
+}
+.img-circle5{
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    /* position: absolute; */
+
+}
 
 
 .address p{

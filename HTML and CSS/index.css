@@ -6,7 +6,7 @@
 }
 
 section{
-    background-color: pink;
+    background-color: #fddde6;
     background-size: cover; 
     position: relative; 
     width: 100%;
@@ -17,12 +17,9 @@ section{
 
 .page{ padding: 50px;
     width: 100%;
-
     display: flex;
     justify-content: space-between;
-    position: relative;
-
-    
+    position: relative;   
 }
 
 .logo{
@@ -110,17 +107,17 @@ section{
 
 
 .img-circle{
-    width: 60px;
+    width: 50px;
     height: auto;
     border-radius: 50%;
-    padding: 2px solid #fff;
+    padding: 2px;
     position: relative;
     border: 2px solid #fff;
 
 }
 
 .img-circle2{
-    width: 60px;
+    width: 50px;
     height: auto;
     border-radius: 50%;
     border: 2px solid #fff;
@@ -129,7 +126,7 @@ section{
 }
 
 .img-circle3{
-    width: 60px;
+    width: 50px;
     height: auto;
     border-radius: 50%;
     border: 2px solid #fff;
@@ -138,7 +135,7 @@ section{
 }
 
 .img-circle4{
-    width: 60px;
+    width: 50px;
     height: auto;
     border-radius: 50%;
     border: 2px solid #fff;
@@ -146,15 +143,15 @@ section{
 
 }
 .img-circle5{
-    width: 60px;
+    width: 50px;
     height: auto;
     border-radius: 50%;
     border: 2px solid #fff;
-    /* position: absolute; */
+    position: relative;
 
 }
-.img-circle5{
-    width: 60px;
+.img-circle6{
+    width: 50px;
     height: auto;
     border-radius: 50%;
     border: 2px solid #fff;
@@ -171,16 +168,20 @@ section{
     float: left;
 }
 
-image{
-    margin-bottom: 100%;
-    display: flex;
-    position: relative;
-    margin: 70px;
-    padding-bottom: 100px;
+.pc-image{
+    position: absolute;
+  top: 80px;
+  right: 0;
+  width: 150px;
+  height: 100px;
+  margin-right: 5%;
+  margin-top: 10%;
+  /* border: 3px solid #73AD21; */
 }
 
-img{
+.img{
     float: right;
-    /* margin-bottom: 500%; */
+    margin-bottom: 100%;
+    /* margin-top: 100%; */
 
 }

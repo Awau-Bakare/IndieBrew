@@ -359,3 +359,34 @@
     
 }
 
+@media screen and (max-width: 450px) {
+    .display-on-mobile{
+        display: block;
+    }
+
+    .link {
+        display: none;
+      }
+
+      .button{
+        display: none;
+      }
+      .content{
+        display: flex;
+        flex-direction: block;
+
+      }
+
+      .page{ 
+        /* padding: 50px; */
+        /* width: 100%; */
+        display: flex;
+        flex-direction: block;
+        /* justify-content: space-between; */
+        /* position: relative;    */
+    }
+    
+}
+
+
+

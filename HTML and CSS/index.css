@@ -15,7 +15,8 @@
     
 }
 
-.page{ padding: 50px;
+.page{ 
+    padding: 50px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -55,7 +56,6 @@
     align-items: center;
    margin-right: 5%;
     padding: 15px 25px;
-    
     width: 16%;
     background-color: blue;
     font-size: 16px;
@@ -67,7 +67,7 @@
 }
 
 .content{
-    position: relative;
+    /* position: relative; */
     font-family: "Poppins", sans-serif;
 }
 
@@ -89,17 +89,7 @@
     line-height: 30px;
 }
 
-.click{
-    margin-left: 8%;
-    padding: 15px 25px;
-    width: 15%;
-    background-color: blue;
-    font-size: 16px;
-    border-radius: 5px;
-    font-family: "Poppins", sans-serif;
-    text-align: center;
-    color: white;
-}
+
 
 .picture1{
     display: flex;
@@ -201,7 +191,15 @@
     float: left;
 }
 
-.pc-image{
+.primary2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+
+}
+
+/* .pc-image{
     position: absolute;
   top: 80px;
   right: 0;
@@ -209,8 +207,8 @@
   height: 100px;
   margin-right: 5%;
   margin-top: 10%;
-  /* border: 3px solid #73AD21; */
-}
+  border: 3px solid #73AD21;
+} */
 
 .img{
     float: right;
@@ -359,6 +357,10 @@
     
 }
 
+.display-on-mobile {
+    display: none;
+}
+
 @media screen and (max-width: 450px) {
     .display-on-mobile{
         display: block;
@@ -371,9 +373,17 @@
       .button{
         display: none;
       }
+
       .content{
         display: flex;
-        flex-direction: block;
+        flex-direction: column;
+
+      }
+
+      .pc-image{
+        position: static;
+        top: 0;
+        margin: 0;
 
       }
 

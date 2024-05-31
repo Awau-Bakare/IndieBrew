@@ -129,7 +129,7 @@
     border-radius: 50%;
     border: 2px solid #fff;
     position: relative;
-    right: 2%;
+    right: 5%;
 
 }
 
@@ -139,7 +139,7 @@
     border-radius: 50%;
     border: 2px solid #fff;
     position: relative;
-    right: 4%;
+    right: 9%;
 
 }
 
@@ -149,7 +149,7 @@
     border-radius: 50%;
     border: 2px solid #fff;
     position: relative;
-    right: 6%;
+    right: 12%;
 
 }
 .img-circle5{
@@ -158,7 +158,7 @@
     border-radius: 50%;
     border: 2px solid #fff;
     position: relative;
-    right: 8%;
+    right: 17%;
 }
 
 .img-circle6{
@@ -167,7 +167,7 @@
     border-radius: 50%;
     border: 2px solid #fff;
     position: relative;
-    right: 10%;
+    right: 21%;
 }
 
 .img-circle7{
@@ -176,7 +176,7 @@
     border-radius: 50%;
     border: 2px solid #fff;
     position: relative;
-    right: 12%;
+    right: 24%;
 }
 
 .img-circle8{
@@ -185,7 +185,7 @@
     border-radius: 50%;
     border: 2px solid #fff;
     position: relative;
-    right: 14%;
+    right: 27%;
 }
 
 .img-circle9{
@@ -194,7 +194,7 @@
     border-radius: 50%;
     border: 2px solid #fff;
     position: relative;
-    right: 16%;
+    right: 32%;
 }
 
 .address p{
@@ -233,8 +233,8 @@
 
 .second-page{
     display: flex;
-    flex-direction: column;
-    width: 100%;    
+    width: 100%;  
+    align-items: center;  
 }
 
 .content-page2{
@@ -243,6 +243,7 @@
     margin-bottom: 1%;
     font-size: 16px;
     font-family: "Poppins", sans-serif;
+    width: 100%;
 
 }
 
@@ -270,14 +271,10 @@
 
 }
 
-.page-design{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .social-media-image{
     margin-right: 5%;
+
 
 }
 
@@ -427,7 +424,7 @@
       .second-page{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        margin-top: 50%;
       }
       .page-design{
         display: flex;
@@ -439,20 +436,21 @@
       .content-page2{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        /* justify-content: center; */
+        position: relative;
       }
 
       .social-media-image{
-        width:400px;
-        height:300px;
+        width:500px;
+        height:400px;
         font-size: 10px;
 
       }
 
-      .page-design{
+      .page2{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
 
 
       }
@@ -463,6 +461,16 @@
         justify-content: center;
 
       }
+
+      /* .footage{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .reach{
+        font-size: 7px;
+      } */
       
 
 

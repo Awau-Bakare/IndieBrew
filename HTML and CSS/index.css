@@ -397,7 +397,7 @@
         display: flex;
         flex-direction: column;
         position: relative;
-        left: 5%; 
+    
       }
 
 
@@ -450,7 +450,7 @@
       .content-page2{
         display: flex;
         flex-direction: column;
-        margin-top: 20%;
+        margin-top: 40%;
         width: fit-content;
           
       }
@@ -469,6 +469,8 @@
         width:500px;
         height:400px;
         font-size: 10px;
+        margin: 5%;
+        
 
       }
 
@@ -478,6 +480,12 @@
         justify-content: flex-start;
 
 
+      }
+
+      .mockup{
+        align-items: center;
+        width: fit-content;
+        margin-right: 10%;
       }
 
       .third-page{

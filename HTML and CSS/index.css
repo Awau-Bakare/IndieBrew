@@ -20,7 +20,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* position: relative;    */
+    
 }
 
 .logo{
@@ -50,6 +50,22 @@
 
 
 .button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin-right: 5%;
+    padding: 15px 25px;
+    width: 40%;
+    background-color: blue;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+     color: white;
+    
+}
+
+.click{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -391,6 +407,7 @@
       .button{
         display: none;
       }
+      
 
       .first-page{
         width: 100%;
@@ -401,18 +418,52 @@
     
       }
 
+      .logo{
+        padding: 0;
+      }
+
+
+      
+.content{
+   
+    font-family: "Poppins", sans-serif;
+}
+
+.content h1{
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    
+}
+
+.content p{
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    line-height: 24px;
+    width: 100%;
+}
 
 
       .primary2{
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         width: 100%;
 
       }
 
+      .picture1{
+        margin: 0;
+        padding: 0;
+      }
+
       .content-back{
-        align-items: center;
+        /* align-items: center; */
       }
 
 
@@ -442,10 +493,11 @@
       }
       
       .page{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        justify-content: space-between;
         width: 100%;
+        align-items: center;
+        padding: 0;
+        margin-top: 3rem;
       }
 
 
